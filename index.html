@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>  
+	<meta charset="UTF-8">
+	<title>Med</title>
+	<meta name="viewport" content="width=device-width, initial-scale=.99">
+
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="scripts/jquery.fancybox.js"></script>
+	<link rel="stylesheet" href="css/styles.css">	
+	<link rel="stylesheet" href="scripts/jquery.fancybox.css">
+</head>  
+	
+<body>
+	<div class="big_wrapper">
+		<div class="full_header _main">
+			<div class="header ">
+				<div class="wrapper">
+					<div class="logo_cont"><a href="#"><img src="img/header/logo.png" alt=""></a></div>
+					<div class="header_contuct geo_cont">
+						<div class="icon"><img src="img/header/marker.png" alt=""></div>
+						<div class="text">
+							<div class="upper">234080, г. Москва</div>
+							<div class="lower">ул. Тверская, д. 17</div>
+						</div>
+					</div>
+					<div class="header_contuct tel_cont">
+						<div class="icon"><img src="img/header/phone.png" alt=""></div>
+						<div class="text">
+							<div class="upper" id="tel"><a href="tel:89585000510">8-958-500-05-10</a></div>
+							<div class="lower"></div>
+						</div>
+					</div>
+					<div class="purple_btn free_consult" id="free_consult">
+						<a data-fancybox data-src="#hidden-content" href="#"><span>Бесплатная консультация</span></a>
+					</div>
+					<div class="burger">
+						<div class="burger_before"></div>
+						<div class="burger_middle"></div>
+						<div class="burger_after"></div>
+					</div>
+					<div class="burger_content _active"></div>
+				</div>
+			</div>
+
+			<div class="menu ">
+				<div class="wrapper">
+					<div class="nav" id="nav">
+						<div class="top_nav_list">
+							<div class="top_nav_link"><a href="#">Медкнижки</a></div>
+							<div class="top_nav_link _lvl_2">
+								<div class="lvl_1">
+									<div class="text">справки</div>
+									<div class="icon"><img src="img/header/arrow_down.png" alt=""></div>
+								</div>
+								<div class="add_body">
+									<div class="add_link"><a href="#">Документы</a></div>
+									<div class="add_link"><a href="#">Отзывы</a></div>
+								</div>
+							</div>
+							<div class="top_nav_link"><a href="#">Акции</a></div>
+							<div class="top_nav_link _lvl_2">
+								<div class="lvl_1">
+									<div class="text">О компании</div>
+									<div class="icon"><img src="img/header/arrow_down.png" alt=""></div>
+								</div>
+								<div class="add_body">
+									<div class="add_link"><a href="#">Документы</a></div>
+									<div class="add_link"><a href="#">Отзывы</a></div>
+								</div>
+							</div>
+							<div class="top_nav_link"><a href="#">Контакты</a></div>
+						</div>
+					</div>
+					<div class="search">
+						<form action="#" class="serch_row">
+							<div class="input input_item">
+								<input type="text" val="4" value="Поиск">
+							</div>
+							<div class="icon">
+								<button type="submit">
+									<img src="img/header/search.png" alt="">
+								</button>
+							</div>
+						</form>
+					</div>
+					<div class="socials" id="socials">
+						<div class="social_item"><a href="#"><img src="img/header/insta.png" alt=""></a></div>
+						<div class="social_item"><a href="#"><img src="img/header/faceboor.png" alt=""></a></div>
+						<div class="social_item"><a href="#"><img src="img/header/tg.png" alt=""></a></div>
+						<div class="social_item"><a href="#"><img src="img/header/vk.png" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="first_screen">
+			<div class="slider_body" id="slider_1">
+				<div class="slider_item">
+					<div class="left_part_content">
+						<div class="wrapper">
+							<div class="left_part_body">
+								<div class="title">Оставьте заявку на медкнижку <br>и получите скидку 15%</div>
+								<div class="suptitle">Медкнижка для медработников выдается по результатам<br>медосмотра, представляет собой документ строгой отчетности.</div>
+								<div class="purple_btn _first_screen"><a data-fancybox data-src="#hidden-content" href="#">Оставить заявку</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="right_part_image">
+						<img src="img/first_screen/med_book.png" alt="">
+					</div>
+				</div>
+				<div class="slider_item">
+					<div class="left_part_content">
+						<div class="wrapper">
+							<div class="left_part_body">
+								<div class="title">Оставьте заявку на медкнижку <br>и получите скидку 15%</div>
+								<div class="suptitle">Медкнижка для медработников выдается по результатам<br>медосмотра, представляет собой документ строгой отчетности.</div>
+								<div class="purple_btn _first_screen"><a data-fancybox data-src="#hidden-content" href="#">Оставить заявку</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="right_part_image">
+						<img src="img/first_screen/med_book.png" alt="">
+					</div>
+				</div>
+				<div class="slider_item">
+					<div class="left_part_content">
+						<div class="wrapper">
+							<div class="left_part_body">
+								<div class="title">Оставьте заявку на медкнижку <br>и получите скидку 15%</div>
+								<div class="suptitle">Медкнижка для медработников выдается по результатам<br>медосмотра, представляет собой документ строгой отчетности.</div>
+								<div class="purple_btn _first_screen"><a data-fancybox data-src="#hidden-content" href="#">Оставить заявку</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="right_part_image">
+						<img src="img/first_screen/med_book.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="slider_1_dots wrapper"></div>
+		</div>
+
+		<div class="stat">
+			<div class="wrapper">
+				<div class="stat_item">
+					<div class="upper_text">>10 </div>
+					<div class="lower_text">лет на рынке</div>
+				</div>
+				<div class="stat_item">
+					<div class="upper_text">13634</div>
+					<div class="lower_text">довольных клиентов</div>
+				</div>
+				<div class="stat_item">
+					<div class="upper_text">20%</div>
+					<div class="lower_text">регулярные скидки</div>
+				</div>
+				<div class="stat_item">
+					<div class="upper_text">500</div>
+					<div class="lower_text">компаний сотрудничают <br>с нами</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="how_to_get">
+			
+			<div class="left_part_content">
+				<div class="wrapper">
+					<div class="left_part_body">
+						<div class="title">Оформление санкнижек – <br> наша ключевая </div>
+						<div class="line"></div>
+						<div class="suptitle">Наш медцентр "MedBook24" оказывает многопрофильные предложения в Москве и Московской области. Мы трудимся с 2011 года! В нашем медцентре компетентность дополняется прогрессивным диагностическим оборудованием. Наши знатоки имеют высшую квалификацию и каждый день увеличивают её.При данном в нашем медцентр установлено прогрессивное умелое оснащение.  Все они не имеют все шансы получаться без проведения имеющих место быть каждый год мед профосмотров.</div>
+						<div class="purple_btn _getting">О компании</div>
+					</div>
+				</div>
+			</div>
+			<div class="right_part_image">
+				<img src="img/getting/getting.png" alt="">
+			</div>
+		</div>
+
+		<div class="sales">
+			<div class="wrapper">
+				<div class="block_title">Актуальные акции</div>
+				<div class="sale_body">
+					<div class="sale_item">
+						<div class="img"><img src="img/stat/medknizka.png" alt=""></div>
+						<div class="sale_title">08.04.2020</div>
+						<div class="sale_desc">Скидка 15% на первую покупку</div>
+					</div>
+					<div class="sale_item">
+						<div class="img"><img src="img/stat/medknizka.png" alt=""></div>
+						<div class="sale_title">08.04.2020</div>
+						<div class="sale_desc">Скидка 15% на первую покупку</div>
+					</div>
+					<div class="sale_item">
+						<div class="img"><img src="img/stat/medknizka.png" alt=""></div>
+						<div class="sale_title">08.04.2020</div>
+						<div class="sale_desc">Скидка 15% на первую покупку</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="all_kind_paper">
+			
+				<div class="left_text">
+					<div class="wrapper">
+						<div class="content_box">
+							<div class="title">У нас есть медицинские <br>справки всех видов</div>
+							<div class="line"></div>
+							<div class="desc">Получение медицинской справки процесс, зачастую, не самый приятный и быстрый. Если вы отправляетесь получить медсправку в районную поликлинику, вас, как правило, ждут большие очереди, необходимость заранее записываться к врачам, недостаточное количество специалистов... Увы, оформление документов может затянуться по разным причинам.</div>
+							<div class="purple_btn _learn_more">Подробнее</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="rigth_img"><img src="img/all_kind_paper/orig.png" alt=""></div>
+			</div>
+		</div>
+
+		<div class="how_get_go">
+			<div class="wrapper">
+				<div class="block_header">
+					<div class="block_title">Как происходит работа с нами</div>
+					<div class="block_suptitle">Seo текст – это специально подготовленный с учетом требований поисковых систем текст, содержащий продвигаемые ключевые слова и подлежащий внесению в сайт.</div>
+				</div>
+				<div class="content_box">
+					<div class="step step_1">
+						<div class="icon"><img src="img/how_it_goes/phone.png" alt=""></div>
+						<div class="title">1. Заявка</div>
+						<div class="desc">Оставьте заявку на оформление или продление медицинской книжки на нашем сайте.</div>
+					</div>
+					<div class="step step_2">
+						<div class="icon"><img src="img/how_it_goes/step_2.png" alt=""></div>
+						<div class="title">2. Оформление за 1 час</div>
+						<div class="desc">В течении нескольких минут позвоним вам и оперативно оформим вам медицинскую книжку в день обращения.</div>
+					</div>
+					<div class="step step_3">
+						<div class="icon"><img src="img/how_it_goes/step_2.png" alt=""></div>
+						<div class="title">3. Получение</div>
+						<div class="desc">Вы можете забрать книжку у нас в офисе или же заказать доставку в удобные вам место и время</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="our_team">
+			<div class="wrapper">
+				<div class="block_title">Наша команда</div>
+				<div class="content_box">
+					<div class="left_part" id="our_team">
+						<div class="team_member _active">
+							<div class="avatar"><img src="img/our_team/ava_1.png" alt=""></div>
+							<div class="desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт</div>
+							</div>
+						</div>
+						<div class="team_member">
+							<div class="avatar"><img src="img/our_team/ava_2.png" alt=""></div>
+							<div class="desc">
+								<div class="name">Инна Потапова</div>
+								<div class="role">Психотерапевт</div>
+							</div>
+						</div>
+						<div class="team_member">
+							<div class="avatar"><img src="img/our_team/ava_3.png" alt=""></div>
+							<div class="desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт</div>
+							</div>
+						</div>
+						<div class="team_member">
+							<div class="avatar"><img src="img/our_team/ava_3.png" alt=""></div>
+							<div class="desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт</div>
+							</div>
+						</div>
+						<div class="team_member">
+							<div class="avatar"><img src="img/our_team/ava_3.png" alt=""></div>
+							<div class="desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт</div>
+							</div>
+						</div>
+						<div class="team_member">
+							<div class="avatar"><img src="img/our_team/ava_3.png" alt=""></div>
+							<div class="desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт</div>
+							</div>
+						</div>
+					
+					</div>
+					<div class="right_part">
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="tab_content">
+							<div class="tab_photo"><img src="img/our_team/big_ava.png" alt=""></div>
+							<div class="tab_desc">
+								<div class="name">Денис Антонов</div>
+								<div class="role">Врач-терапевт </div>
+								<div class="desc">Является членом профессиональной ассоциации терапевтов Росии, автор 20 опубликованных научных работ.</div>
+								<div class="exp">Стаж работы <span>20 лет.</span></div>
+								<div class="education">
+									<div class="edu">Образование</div>
+									<p>2011 г. — получил диплом с отличием по специальности «Лечебное дело», ГОУ ВПО «Тверская государственная медицинская академия».</p>
+									<p>2013 г. — окончил с отличием клиническую ординатуру по специальности «Терапевт»</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="recevies">
+			<div class="wrapper">
+				<div class="block_title">Отзывы</div>
+				<div class="sup_title">Seo текст – это специально подготовленный с учетом требований поисковых систем текст, содержащий продвигаемые ключевые слова и подлежащий внесению в сайт.</div>
+				<div class="slider">
+					<div class="slider_body" id="slider_2">
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+						<div class="slider_item">
+							<div class="upper">
+								<div class="avatar"><img src="img/reviwes/avatar.png" alt=""></div>
+								<div class="desc">
+									<div class="name">Денис Антонов</div>
+									<div class="date">24.06.2012</div>
+								</div>
+							</div>
+							<div class="comment">Недавно на новую работу устраивался, срочно была нужна медицинская книжка. Поискал в Интернете место, где можно было бы ее оформить в самые короткие сроки, наткнулся на эту компанию. Оформили быстро, а то сроки меня прям ну очень сильно поджимали. Все хорошо с книжкой, при устройстве на работу никаких проблем не возникло. Могу сказать, что я остался доволен.</div>
+						</div>
+					</div>
+					<div class="slider_2_dots"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="accordeon_screen">
+			<div class="wrapper">
+				<div class="left_part">
+					<div class="faq_title">Часто задаваемые<br>вопросы</div>
+					<div class="suptitle">У вас остались вопросы?</div>
+					<div class="get_consult"><a data-fancybox data-src="#hidden-content" href="">Получите консультацию специалиста</a></div>
+					<div class="HR">
+						<div class="left">
+							<div class="avatar"><img src="img/reviwes/hr.png" alt=""></div>
+						</div>
+						<div class="right">
+							<div class="who">Ваши заявки принимает: </div>
+							<div class="name">Рогозин Дмитрий</div>
+							<div class="contuct">Контакты:</div>
+							<div class="mail">medproject@gmail.com</div>
+							<div class="tel"><a href="tel:88172720044">8 (817) 272-00-44</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="right_part">
+					<div class="accrordion">
+						<div class="accordion_item">
+							<div class="title _acc_title">
+								<div class="icon"></div>
+								<div class="question">Как сделать медкнижку?</div>
+							</div>
+							<div class="answer">При обращений в наш медцентр, мы поможем вам сделать медицинскую книжку в день обращения.</div>
+						</div>
+						<div class="accordion_item">
+							<div class="title _acc_title">
+								<div class="icon"></div>
+								<div class="question">Сколько мне ждать оформления медкнижки?</div>
+							</div>
+							<div class="answer"> При обращений в наш медцентр, мы поможем вам сделать медицинскую книжку в день обращения.</div>
+						</div>
+						<div class="accordion_item">
+							<div class="title _acc_title">
+								<div class="icon"></div>
+								<div class="question">Что такое медкнижка и для чего она нужна?</div>
+							</div>
+							<div class="answer">При обращений в наш медцентр, мы поможем вам сделать медицинскую книжку в день обращения.</div>
+						</div>
+						<div class="accordion_item">
+							<div class="title _acc_title">
+								<div class="icon"></div>
+								<div class="question">Кому нужна медкнижка?</div>
+							</div>
+							<div class="answer">При обращений в наш медцентр, мы поможем вам сделать медицинскую книжку в день обращения.</div>
+						</div>
+						<div class="accordion_item">
+							<div class="title _acc_title">
+								<div class="icon"></div>
+								<div class="question">Какие документы нужны для медкнижки?</div>
+							</div>
+							<div class="answer">При обращений в наш медцентр, мы поможем вам сделать медицинскую книжку в день обращения.</div>
+						</div>
+						<div class="accordion_item">
+							<div class="title _acc_title">
+								<div class="icon"></div>
+								<div class="question">Можно ли у вас купить медкнижки оптом? Будет ли какая-то скидка?</div>
+							</div>
+							<div class="answer">При обращений в наш медцентр, мы поможем вам сделать медицинскую книжку в день обращения.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="wrapper">
+				<div class="logo_cont"><a href="#"><img src="img/header/logo.png" alt=""></a></div>
+				<div class="search">
+					<form action="#" class="serch_row">
+						<div class="input input_item">
+							<input type="text" val="4" value="Поиск">
+						</div>
+						<div class="icon">
+							<button type="submit">
+								<img src="img/header/search.png" alt="">
+							</button>
+						</div>
+					</form>
+				</div>
+				<div class="footer_nav">
+					<div class="footer_link"><a href="#">Медкнижки</a></div>
+					<div class="footer_link"><a href="#">О компании</a></div>
+					<div class="footer_link"><a href="#">Акции</a></div>
+					<div class="footer_link"><a href="#">справки</a></div>
+					<div class="footer_link"><a href="#">Контакты</a></div>
+				</div>
+				<div class="purple_btn free_consult">
+					<a data-fancybox data-src="#hidden-content" href="#"><span>Бесплатная консультация</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="afterfooter">
+			<div class="wrapper">
+				<div class="copyright">© 2020  ООО "Клиника Медика"</div>
+				<div class="made_by">
+					<div class="text">Разработка сайта</div>
+					<div class="icon"><a href="#"><img src="img/reviwes/logo_footer.png" alt=""></a></div>
+				</div>
+				<div class="block"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="form_popup" id="hidden-content" style="display: none">
+		<form action="#" class="popup_form">
+			<div class="form_title">Оставить заявку</div>
+			<div class="fotm_sup_title">Оставьте заявку, и мы ответим на ваши вопросы</div>
+			<div class="form_row">
+				<div class="input_item">
+					<input type="text" val="1" value="Имя">
+				</div>
+				<div class="input_item">
+					<input type="text" val="2" value="Телефон">
+				</div>
+			</div>
+			<div class="input_text input_item">
+				<textarea name="" val="3">Комментарий</textarea>
+			</div>
+			<div class="input_check_box">
+				<div class="input_item">
+					<input type="checkbox" id="policy" name="policy">
+					<label for="policy"></label>
+				</div>
+				<div class="text">Я ознакомлен и согласен с «Условиями сбора и обработки персональных данных»</div>
+			</div>	
+			<div class="submit_btn">
+				<button type="subnit" class="purple_btn _form_btn"><a data-fancybox data-src="#hidden-content" href="#">Бесплатная консультация</a></button>
+			</div>
+		</form>
+	</div>
+	<script src="scripts/slick.min.js"></script>
+	<script src="scripts/jquery.scrollbar.js"></script>
+	<script src="scripts/scripts.js"></script>
+</body>
+</html>
